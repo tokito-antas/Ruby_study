@@ -5,3 +5,5 @@ puts %q! He said "Don't speak"!
 # 式展開も使える
 greeting = "Hello"
 puts %Q! He said "#{greeting}"!
+
+
