@@ -6,4 +6,5 @@ puts %q! He said "Don't speak"!
 greeting = "Hello"
 puts %Q! He said "#{greeting}"!
 
-
+# !以外でもいい。たとえば?とか、{}で閉じるのもOK
+puts %Q{ He said again "#{greeting}"}
