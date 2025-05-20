@@ -3,3 +3,7 @@ a, b = 100, 200, 300
 p a #=> 100
 p b #=> 200
 
+puts("----------")
+# バックスラッシュで特殊文字を文字列として使う
+puts('Don\'t speak!')
+puts("He said \"Don't speak!\"")
